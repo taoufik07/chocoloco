@@ -22,7 +22,7 @@ jobs:
           persist-credentials: false
 
       - name: Install mise and tooling
-        uses: jdx/mise-action@e3d7b8d67a7958d1207f6ed871e83b1ea780e7b0 # v3.3.1
+        uses: jdx/mise-action@c53b9236f0b3370f31520f8b142f141256d839c6 # v3.6.0
 
       - run: bun install
 
